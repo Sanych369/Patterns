@@ -1,15 +1,20 @@
 package Creational.Singleton;
 
 public class Singleton {
-    private static Singleton instanse = null;
-    private Singleton() {}
-    public static Singleton getInstance() {
-        if (instanse == null) {
-            instanse = new Singleton();
-        }
-        return instanse;
+    private static Singleton instance = null;
+
+    private Singleton() {
     }
+
+    public static Singleton getInstance() {
+        if (instance == null) {
+            instance = new Singleton();
+        }
+        return instance;
+    }
+
     public void setUp() {
         System.out.println("SetUP!");
     }
+
 }

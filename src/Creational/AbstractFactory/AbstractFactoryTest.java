@@ -1,7 +1,8 @@
 package Creational.AbstractFactory;
 
 /**
- * Абстрактная фабрика (Abstract factory) - Класс, который представляет собой интерфейс для создания других классов.
+ * Абстрактная фабрика (Abstract factory) -
+ * Класс, который представляет собой интерфейс для создания других классов.
  */
 public class AbstractFactoryTest {
     public static void main(String[] args) {
